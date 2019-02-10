@@ -17,6 +17,10 @@ xina=25;dxana=500;xfna=25025;
 
 suave=1
 
+%%Here comes the necessary information to build the model:
+%dz= sample interval in z - dx=sample interval in x
+%xini=beginning of x axis - xfinal=end of x axis
+%zini=beginning of z axis - zfinal=end of z axis%%
 %dz=3;dx=25;
 dz=10;dx=50;
 %xini=0.0;xfinal=9025;
@@ -24,11 +28,19 @@ xini=0.0;xfinal=25850;
 %zini=0.0;zfinal=3000.0;
 zini=0.0;zfinal=3000.0;
 
+%%vini=initial velocity - vfinal=final velocity%%
 vini=1500.0;vfinal=4500.0;
 
+%%Now discretizing the z axis (building the model -z axis)
+%zinterp will create a vector starting with zini (0) and going til
+%zfinal+dz (3010), with sample interval of 10. Then nzint will simply count
+%and tell us the length of zinterp%%
 zinterp=(zini:dz:zfinal+dz);nzint=length(zinterp);
 
 j=0;
+%%p is a vector created for us to navigate through the files we will be
+%%using (pick, which comes from cig-cigcont-stk). It starts at 25(xina) and goes
+%%until 25025(xfna), at every 500(dxana).
 for p=xina:dxana:xfna
     clear dado
     j=j+1;
