@@ -1,0 +1,24 @@
+model                         : interfaces
+5                             : number of interfaces in model file
+colors                        : color for ploting
+m                             : display the model
+well                          : dummy well log coordinates
+s                             : shooting mode (surface/downhole)
+geometry                      : acquisition geometry
+                              : plot sources and/or geophones
+rlt                           : job descriptor (ray/listings/times)
+out.                          : output filename
+-85.00   85.00                : range of takeoff angles
+  2.00                        : incremente in takeoff angle
+      1.5000
+      1.5000
+      2.0000
+      3.0000
+      4.5000
+      5.0000                  : last velocity
+n                             : direct waves? (y/n)
+                              : interfaces generating head waves
+n                             : primary reflections? (y/n)
+ 2
+ 3
+ 4

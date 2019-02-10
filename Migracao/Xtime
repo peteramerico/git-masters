@@ -1,0 +1,12 @@
+#! /bin/sh
+# shell for plotting synthetic data
+n1=301 f1=0 d1=10 n2=517 d2=50 f2=0 n3=410 d3=100 
+
+xmovie<tfile_vana01_nearest n1=$n1 d1=$d1 f1=$f1 n2=$n2 \
+        d2=$d2 f2=$f2 n3=$n3 d3=$d3 \
+	label1="Depth (m)" label2="Midpoint (m)" \
+	ybox=30 hbox=40 \
+	bclip=2 d1num=500 d2num=1000 \
+	title="Traveltime Tables" loop=1 &
+
+# Plotting inverted data

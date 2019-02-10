@@ -1,0 +1,39 @@
+ fxt=0.000000 fxo=100.000000 
+ ext=25800.000000 exo=25800.000000 
+ fzt=0.000000 fzo=0.000000 
+ ezt=3000.000000 ezo=3000.000000 
+ es=20850.000000 
+ 
+
+ Migration parameters
+ ================
+ infile=stdin 
+ outfile=stdout 
+ ttfile=tfile_vana01_nearest 
+ 
+ nzt=301 fzt=0 dzt=10
+ nxt=517 fxt=0 dxt=50
+ ns=417 fs=50 ds=50
+ 
+ nzo=1001 fzo=0 dzo=3
+ nxo=515 fxo=100 dxo=50
+ 
+ nt=1001 ft=0 dt=0.004 
+ dxm=50 fmax=60
+ noff=1 off0=0 doff=99999
+ v0=1500 dvz=0 
+ aperx=20000 offmax=4950 angmax=85
+ ntr=50000 mtr=100 ls=0 npv=0
+ absoff=0 limoff=0
+ ================
+ input traveltime tables 
+ start migration ... 
+ 
+ fs=50 es=20850 offmax=4950
+ migrated trace 1
+ migrated trace 101
+ migrated trace 201
+ migrated trace 301
+ migrated 318 traces in total
+ 
+ output done

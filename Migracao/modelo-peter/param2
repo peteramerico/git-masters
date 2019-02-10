@@ -1,0 +1,9 @@
+s                             : shot/receiver gathers (s/r)
+  1 417                       : first and last shot to process
+  1  99                       : first and last trace to process (take from 1st shot)
+10.0  25.0  35.0  50.0        : source frequencies
+0.150                         : Wavelet length (seconds)
+0.004                         : Sampling rate (seconds)
+4.000                         : Maximum recorded time (seconds)
+out.shot                      : Input file
+out.bin                       : Binary output file

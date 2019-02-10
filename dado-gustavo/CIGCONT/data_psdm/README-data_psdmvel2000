@@ -1,0 +1,11 @@
+Here in this folder I split up gustavo's migrated .su file so it could be sent to github (which limits file size to 100mb).
+To split the file data_psdmvel2000.su in ten files with ~10mb each I used the comand split:
+$ split -b 10M data_psdmvel2000.su data
+I think the last file has aproximatelly 5 mb actually.
+
+Then, if I want to retrieve the full data_psdmvel2000.su file I need to download these files: dataaa	dataac	dataae	dataag	dataai	dataak
+dataab	dataad	dataaf	dataah	dataaj
+and use the comand cat in terminal:
+$ cat dataa? > data_psdmvel2000.su
+
+I am not completelly sure if this work around will work, but if it doesn't, I just need to get the original file where Gustavo sent me (can be in my email or in the LGC pc).

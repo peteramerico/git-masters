@@ -1,0 +1,61 @@
+
+ RAYT2D parameters
+ ================
+ vfile=stdin 
+ tfile=tfile_vana01_nearest 
+ one-way time: dt=0.004 nt=1001 
+ nz=301 fz=0 dz=10
+ nx=517 fx=0 dx=50
+ nzo=301 fzo=0 dzo=10
+ nxo=517 fxo=0 dxo=50
+ nxs=417 fxs=50 dxs=50
+ mx=517 aperx=20050 
+ na=86 fa=-85 da=2
+ amin=0 amax=90 
+ ek=1 ms=10 npv=0 restart=n
+ finish velocity input
+ begin traveltime calculation
+ traveltime computed at source xs=50
+ traveltime computed at source xs=550
+ traveltime computed at source xs=1050
+ traveltime computed at source xs=1550
+ traveltime computed at source xs=2050
+ traveltime computed at source xs=2550
+ traveltime computed at source xs=3050
+ traveltime computed at source xs=3550
+ traveltime computed at source xs=4050
+ traveltime computed at source xs=4550
+ traveltime computed at source xs=5050
+ traveltime computed at source xs=5550
+ traveltime computed at source xs=6050
+ traveltime computed at source xs=6550
+ traveltime computed at source xs=7050
+ traveltime computed at source xs=7550
+ traveltime computed at source xs=8050
+ traveltime computed at source xs=8550
+ traveltime computed at source xs=9050
+ traveltime computed at source xs=9550
+ traveltime computed at source xs=10050
+ traveltime computed at source xs=10550
+ traveltime computed at source xs=11050
+ traveltime computed at source xs=11550
+ traveltime computed at source xs=12050
+ traveltime computed at source xs=12550
+ traveltime computed at source xs=13050
+ traveltime computed at source xs=13550
+ traveltime computed at source xs=14050
+ traveltime computed at source xs=14550
+ traveltime computed at source xs=15050
+ traveltime computed at source xs=15550
+ traveltime computed at source xs=16050
+ traveltime computed at source xs=16550
+ traveltime computed at source xs=17050
+ traveltime computed at source xs=17550
+ traveltime computed at source xs=18050
+ traveltime computed at source xs=18550
+ traveltime computed at source xs=19050
+ traveltime computed at source xs=19550
+ traveltime computed at source xs=20050
+ traveltime computed at source xs=20550
+ finish program rayt2d
+

@@ -1,0 +1,4 @@
+   0              0.0500        : reference station number and x-coord
+   0.050          0.000         : station spacing and receiver depth
+   1   50   51   99 0.00 0.00 : first shot geometry
+ 417     0.050                  : total number of shots and displacement between them
