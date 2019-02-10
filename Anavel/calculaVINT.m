@@ -4,7 +4,7 @@ clear
 %PATH='~/Mestrado/CIGCONT_ffd/ContPSDM/Migracao03/Anavel03b/OperaA/'
 %PATH='~/Mestrado/CIGCONT_ffd/ContPSDM/Migracao04/Anavel04b/OperaA/'
 %PATH='~/Mestrado/CIGCONT_ffd/ContPSDM/Migracao05/Anavel05b/OperaA/'
-PATH='~/Mestrado/CIGCONT_ffd/ContPSDM/Migracao01/Anavel01/'
+PATH='~/processamento/peter/git-masters/Anavel'
 %PATH='~/Mestrado/CIGCONT_ffd/ContPSDM/Migracao02/Anavel02/Opera/'
 %PATH='~/Mestrado/CIGCONT_ffd/ContPSDM/Migracao03/Anavel03a/Opera/'
 %PATH1='~/Mestrado/CIGCONT_ffd/ContPSDM/Migracao02a/'
