@@ -80,7 +80,7 @@ for p=xina:dxana:xfna
     %%depths in the first row and velocities in the second row. Then in the
     %%first column we have 0 depth in the first row and its corresponding
     %%velocitie (1500) in the second row. This correspondence between
-    %%rows continues for each column. 
+    %%rows continues for each column 
     pick=[zini vini;dado(1,:)' dado(2,:)']';
     npick=length(pick);
     
