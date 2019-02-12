@@ -15,7 +15,7 @@ PATH='/processamento/peter/Anavel/'
 %xina=250;dxana=250;xfna=8750;
 xina=25;dxana=500;xfna=25025;
 
-suave=1
+suave=1;
 
 %%Here comes the necessary information to build the model:
 %dz= sample interval in z - dx=sample interval in x
@@ -80,7 +80,7 @@ for p=xina:dxana:xfna
     %%depths in the first row and velocities in the second row. Then in the
     %%first column we have 0 depth in the first row and its corresponding
     %%velocitie (1500) in the second row. This correspondence between
-    %%rows continues for each column 
+    %%rows continues for each column. 
     pick=[zini vini;dado(1,:)' dado(2,:)']';
     npick=length(pick);
     
@@ -88,6 +88,8 @@ for p=xina:dxana:xfna
     %velpick(1:nzint,1:2)=[zinterp' w'];
     
     m=0;
+    %%This next for loop is used to calculate the interval velocitiy for 
+    %%the pick file of the current iteration (for p=xina:dxana...)
     for prof=zini:dz:zfinal
         m=m+1;
         for k=2:npick

@@ -15,7 +15,7 @@ PATH='/processamento/peter/Anavel/'
 %xina=250;dxana=250;xfna=8750;
 xina=25;dxana=500;xfna=25025;
 
-suave=1
+suave=1;
 
 %%Here comes the necessary information to build the model:
 %dz= sample interval in z - dx=sample interval in x
