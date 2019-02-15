@@ -10,6 +10,7 @@ do
 sed -i 's/\./,/g' pick$i.rsf
 done
 
+#sorting
 for i in {25..25025..500}
 do
 cat pick$i.rsf|sort -n>temp$i.dat
