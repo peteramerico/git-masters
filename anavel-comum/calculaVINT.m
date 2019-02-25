@@ -4,7 +4,7 @@ clear
 %PATH='~/Mestrado/CIGCONT_ffd/ContPSDM/Migracao03/Anavel03b/OperaA/'
 %PATH='~/Mestrado/CIGCONT_ffd/ContPSDM/Migracao04/Anavel04b/OperaA/'
 %PATH='~/Mestrado/CIGCONT_ffd/ContPSDM/Migracao05/Anavel05b/OperaA/'
-PATH='/processamento/peter/Anavel/'
+PATH='/Users/peter/Documents/2019.1/projeto-mestrado/dado-gustavo/Anavel-jet/'
 %PATH='~/Mestrado/CIGCONT_ffd/ContPSDM/Migracao02/Anavel02/Opera/'
 %PATH='~/Mestrado/CIGCONT_ffd/ContPSDM/Migracao03/Anavel03a/Opera/'
 %PATH1='~/Mestrado/CIGCONT_ffd/ContPSDM/Migracao02a/'
@@ -15,7 +15,7 @@ PATH='/processamento/peter/Anavel/'
 %xina=250;dxana=250;xfna=8750;
 xina=25;dxana=500;xfna=25025;
 
-suave=1;
+suave=0;
 
 %%Here comes the necessary information to build the model:
 %dz= sample interval in z - dx=sample interval in x
